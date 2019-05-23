@@ -50,12 +50,8 @@ public class Program {
 				System.out.println(e.getMessage());
 				sc.nextLine();
 			}
-			catch (IncompatibleClassChangeError e) {
-				System.out.println(e.getMessage());
-				sc.nextLine();
-			}
 			catch (InputMismatchException e) {
-				System.out.println("Invalid input!!, try again...");
+				System.out.println(e.getMessage());
 				sc.nextLine();
 			}
 		}
